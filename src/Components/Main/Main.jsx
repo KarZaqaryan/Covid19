@@ -11,6 +11,7 @@ import Blog from "../Blog/Blog.jsx";
 export default function Main (){
     return(
         <div>
+            <h2 className={"testGithub"}>Barev Karen jan vonces</h2>
             <Header/>
             <main>
                 <Trecker/>
