@@ -8,9 +8,7 @@ function Blog () {
 
                 <h2 className="h2 section-title" id="blog-label">{info.title}</h2>
 
-                <p className="section-text text">
-                    {info.subtitle}
-                </p>
+                <p className="section-text text"> {info.subtitle}  </p>
 
                 <ul className="grid-list">
 
