@@ -1,6 +1,4 @@
-# COVID-19 Tracker
 
-![COVID-19 Tracker Screenshot](src/screen.png)
 
 ## Overview
 
