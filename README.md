@@ -1,6 +1,6 @@
 # COVID-19 Tracker
 
-![COVID-19 Tracker Screenshot](src/screening.png)
+![COVID-19 Tracker Screenshot](src/screen.png)
 
 ## Overview
 
@@ -18,13 +18,13 @@ This project is a **COVID-19 Tracker** built with a clean and informative user i
 
 Here's a preview of the application:
 
-![COVID-19 Tracker Preview](src/screening.png)
+![COVID-19 Tracker Preview](src/screen.png)
 
 ## Live Demo
 
 You can view a live version of this project at:
 
-[Live Demo Link](src/screening.png)
+[Live Demo Link](src/screen.png)
 
 ## Installation
 
