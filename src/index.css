@@ -937,3 +937,49 @@ body.active { overflow-y: hidden; }
   .safety-list { grid-template-columns: repeat(4, 1fr); }
 
 }
+/* General styling for the container */
+div {
+  margin-bottom: 20px;
+}
+
+/* Styling for the labels */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Styling for the select dropdowns */
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Disabled dropdown style */
+select:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+/* Option elements styling */
+option {
+  font-size: 16px;
+}
+
+/* Add a hover effect to the dropdown */
+select:hover {
+  border-color: #0056b3;
+}

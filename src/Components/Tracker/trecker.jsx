@@ -13,11 +13,11 @@ const Trecker = () => {
 
     function handleChange(e) {
         setInp(e.target.value);
-        setProvince(''); // Reset province when country changes
+        setProvince('');
     }
 
     function handleProvince(e) {
-        setProvince(e.target.value); // Corrected destructuring
+        setProvince(e.target.value);
     }
 
     useEffect(() => {
@@ -38,13 +38,16 @@ const Trecker = () => {
         <section className="section hero has-bg-image" id="home" style={divStyle}>
             <div className="container">
                 <div className="hero-content">
-                    <label>Select a country: </label>
-                    <select value={inp} onChange={handleChange}>
-                        <option value="">--Choose a country--</option>
-                        <option value="chn">China</option>
-                        <option value="arm">Armenia</option>
-                        <option value="rus">Russia</option>
-                    </select>
+                    <div>
+                        <label>Select a country: </label>
+                        <select value={inp} onChange={handleChange}>
+                            <option value="">--Choose a country--</option>
+                            <option value="chn">China</option>
+                            <option value="usa">USA</option>
+                            <option value="rus">Russia</option>
+                        </select>
+                    </div>
+
 
                     <label>Select a Province:</label>
                     <select value={province} onChange={handleProvince} disabled={!state}>
